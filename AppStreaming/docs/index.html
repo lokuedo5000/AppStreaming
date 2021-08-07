@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reproductor</title>
+  <!-- materialize -->
+  <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <!-- iconos -->
+  <link rel="stylesheet" href="icons-fonts/style.css">
+  <!-- estilos app -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <div class="border_app">
+    <div class="draggable menu_drag">
+      <div class="css_app_action">
+        <div class="icono_app css_ic_tt">
+          <div class="icono_img"></div>
+        </div>
+        <div class="titulo_app css_ic_tt">
+          lokuedo5000
+        </div>
+      </div>
+      <!-- Action -->
+      <div class="act_app">
+        <div class="act_app_ic actionwin" data-action='minimize'>
+          <span class="cwI-minus"></span>
+        </div>
+        <div class="act_app_ic actionwin" data-action='maximize'>
+          <span class="cwI-cheveron-up maximiz"></span>
+        </div>
+        <div class="act_app_ic actionwin" data-action='close'>
+          <span class="cwI-close"></span>
+        </div>
+      </div>
+    </div>
+    <!-- body -->
+    <div class="body">
+      <div class="container-fluid p-2">
+        <!-- Add MagNet -->
+        <div class="form_magnet p-1">
+          <div class="row m-0">
+            <div class="input-field col s12">
+              <input id="magnet" type="text" class="validate">
+              <label for="magnet">Magnet</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reproductor -->
+        <div class="content_re">
+          <h5>Reproductor</h5>
+          <div class="reproductor vervideo">
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Play -->
+      <div class="fixed-action-btn btnplay">
+        <a class="btn-floating btn-large run_peli red tooltipped" data-position="left" data-tooltip="Iniciar Pelicula">
+          <i class="large cwI-play"></i>
+        </a>
+      </div>
+
+      <!-- Clear y Reload -->
+      <div class="fixed-action-btn d-none btnclear">
+        <a class="btn-floating btn-large clear_peli red tooltipped" data-position="left" data-tooltip="Reload">
+          <i class="large cwI-reload1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+<!-- Script -->
+<script src="jquery/jquery.js"></script>
+<script src="materialize/js/materialize.min.js" charset="utf-8"></script>
+<script src="materialize/js/init.js" charset="utf-8"></script>
+
+</html>

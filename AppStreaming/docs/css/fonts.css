@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto/Roboto-Light.ttf);
+  font-display: fallback;
+}
+@font-face {
+  font-family: Thin;
+  src: url(../fonts/roboto/Roboto-Thin.ttf);
+  font-display: fallback;
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url(../fonts/roboto/Roboto-Bold.ttf);
+  font-display: fallback;
+}

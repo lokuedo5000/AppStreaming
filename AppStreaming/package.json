@@ -1,0 +1,23 @@
+{
+  "name": "awdtolk",
+  "version": "1.0.0",
+  "description": "AwDtoLK",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "electron ./app.js"
+  },
+  "keywords": [],
+  "author": "@lokuedo5000",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.6"
+  },
+  "dependencies": {
+    "electron-window-state-manager": "^0.3.2",
+    "parse-torrent": "^9.1.4",
+    "webtorrent": "^1.3.9"
+  }
+}
